@@ -4,3 +4,6 @@ Hello , this is just for ansbile commit to git and using git webhook running jen
 this has been tested properly.
 
 public IP of EC2 instances are not static. it changes after every boot.
+
+
+testing - 18 may 2024
