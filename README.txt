@@ -6,4 +6,4 @@ this has been tested properly.
 public IP of EC2 instances are not static. it changes after every boot.
 
 
-testing - 18 may 2024
+testing - 18May2024
