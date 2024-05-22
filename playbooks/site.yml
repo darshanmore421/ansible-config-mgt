@@ -4,12 +4,17 @@
   tags:
     - always
 
+- name: Include common file 
+  import_playbook: ../static-assignments/common.yml
+  tags:
+    - always
+
 - name: uat-webservers
   import_playbook: ../static-assignments/uat-webservers.yml
 
-- name: db
+- name: import database file
   import_playbook: ../static-assignments/db.yml
 
-- name: lb
+- name: loadbalancer
   import_playbook: ../static-assignments/loadbalancers.yml
   when: load_balancer_is_required
