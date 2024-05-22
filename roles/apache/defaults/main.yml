@@ -66,3 +66,6 @@ apache_packages_state: present
 loadbalancer_name: "myapp1"
 web1: "172.31.46.182 weight=3"
 web2: "172.31.32.241 weight=3"
+
+enable_apache_lb: false
+load_balancer_is_required: false
