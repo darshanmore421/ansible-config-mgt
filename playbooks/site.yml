@@ -9,7 +9,7 @@
   tags:
     - always
 
-- name: uat-webservers
+- name: uat webservers
   import_playbook: ../static-assignments/uat-webservers.yml
 
 - name: import database file
