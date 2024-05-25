@@ -1,5 +1,5 @@
 ---
-- name: uat webserverss
+- name: uat webservers
   hosts: uat-webservers
   roles:
-     - webserver
+     - uat-webserver
