@@ -2,4 +2,4 @@
 - name: uat webservers
   hosts: uat-webservers
   roles:
-     - uat-webserver
+     - webserver
